@@ -1,0 +1,35 @@
+{
+  "roots": [
+    "https://example.com/",
+    "https://example.com/sitemap.xml"
+  ],
+
+  "include_subdomains": true,
+  "deny_patterns": ["/cart", "/checkout", "\\?add-to-cart="],
+  "max_depth": 12,
+  "max_pages": 0,
+  "download_offsite_assets": false,
+
+  "honor_robots": true,
+  "concurrency": 4,
+  "per_host_concurrency": 2,
+  "min_delay": 0.5,
+  "respect_crawl_delay": true,
+  "timeout": 30.0,
+  "max_retries": 4,
+
+  "render": true,
+  "render_always": false,
+  "render_timeout": 30.0,
+  "render_max_scrolls": 12,
+  "render_load_more_clicks": 25,
+  "capture_network": true,
+
+  "output_dir": "archive",
+  "db_path": "archive/archive.db",
+  "export_dir": "exports",
+  "mirror_dir": "mirror",
+  "compress_raw": false,
+  "extract_comments": true,
+  "follow_sitemaps": true
+}

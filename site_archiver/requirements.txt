@@ -1,0 +1,17 @@
+# Core crawling
+httpx[http2]>=0.27,<1.0
+beautifulsoup4>=4.12
+lxml>=5.0
+
+# JavaScript rendering (optional but strongly recommended)
+playwright>=1.40
+
+# Image metadata (optional; header-parsing fallbacks exist for PNG/GIF/JPEG/SVG)
+Pillow>=10.0
+
+# YAML config files (optional; JSON config always works)
+PyYAML>=6.0
+
+# Tests
+pytest>=8.0
+pytest-asyncio>=0.23
